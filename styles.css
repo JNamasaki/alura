@@ -1,0 +1,167 @@
+:root {
+    --branco-prin: #ffffff;
+    --cinza-secund: #C0C0C0;
+    --azul-botao: #167BF7;
+    --fundo-cor: #00030C;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body {
+    background: var(--fundo-cor);
+}
+
+header {
+    background-image: url(imgs/background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: var(--branco-prin);
+    max-width: 100%;
+}
+
+.container {
+    min-height: 80vh;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.combo {
+    margin: 3em 0 0 4em;
+    width: 100%;
+    height: 307px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.combo img {
+    width: 348px;
+    height: 100px;
+    margin: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.botao {
+    width: 60%;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+#telas_botao {
+    width: 30%;
+    background-color: var(--azul-botao);
+    color: var(--branco-prin);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.3em;
+}
+
+#aluraflix {
+    background-color: var(--azul-botao);
+    color: var(--branco-prin);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1em;
+}
+
+#alura {
+    color: var(--branco-prin);
+    font-family: 'Inter';
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid var(--branco-prin);
+    border-radius: 1em;
+}
+
+.combo a:hover {
+    transition: 1s;
+    width: 100%;
+    font-size: 20px;
+}
+
+.plataformas {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.plataformas img {
+    width: 80%;
+}
+
+.descricao h1 {
+    color: var(--branco-prin);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.descricao p {
+    color: var(--cinza-secund);
+}
+
+.Telas {
+    margin: 0 3em;
+    align-items: center;
+    text-align: left;
+}
+
+.dispositivos {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+    color: var(--branco-prin);
+    margin-bottom: 30px;
+}
+
+.dispositivos h1 {
+    font-weight: 800;
+    font-size: 48px;
+    font-family: Roboto;
+}
+
+.dispositivo {
+    display: inline-block;
+    text-align: center;
+    font-size: 32px;
+}
+
+footer {
+    color: var(--cinza-secund);
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+footer ul li a {
+    text-emphasis: none;
+    text-decoration: none;
+    color: var(--branco-prin);
+}
+
+footer p {
+    font-size: 15px;
+}
